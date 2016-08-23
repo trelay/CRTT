@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: CRTT
+Version: 0.8
+Summary: Common Restful Test Tool
+Home-page: https://github.com/trelay/CRTT
+Author: Trelay Wang
+Author-email: trelwan@celestica.com
+License: MIT
+Description: UNKNOWN
+Keywords: restful test tool
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
