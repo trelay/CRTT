@@ -29,4 +29,5 @@ setup(name='CRTT',
 	keywords='restful test tool',
 	packages=['CRTT'],
 	package_data={'CRTT':['test/*.conf','test/*.py']},
+	download_url='https://github.com/trelay/CRTT/tarball/0.1',
 )
