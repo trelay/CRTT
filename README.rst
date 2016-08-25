@@ -5,16 +5,16 @@ Only Python3 is supported.
 
 CRTT is shortened for Common [RESTful] Test Tool; it can be used in following occasions:
 
-  - Test the reliability of RESTful server 
-  - Find unknown issue
-  - Stress test for RESTful server 
-  - Key String matching
+* Test the reliability of RESTful server 
+* Find unknown issue
+* Stress test for RESTful server 
+* Key String matching
 
 
 
 Support
 -------
- - This tool is intended to support all kinds of RESTful server, from Redfish to...
+* This tool is intended to support all kinds of RESTful server, from Redfish to...
 
 Version
 -------
@@ -52,7 +52,7 @@ Arguments & CLI options:
 Response check from URL:
 ------------------------
 
-The conf file for checking response from URL is defined in file `value_check.conf <https://github.com/trelay/CRTT/blob/master/CRTT/test/value_check.conf>`_ by default, but you can also define it when run CLI, refer the help:
+The conf file for checking response from URL is defined in file `value_check.conf <https://github.com/trelay/CRTT/blob/master/CRTT/test/value_check.conf>`_ by default, but you can also define it when run CLI, refer the help::
 
 
     [MemoryModule]	#The name of current url, can be found by key "Name"
