@@ -36,7 +36,9 @@ Quick Start
     get_node.scan_node()
 
 Or use build-in sample::
+
     `./test.py <https://github.com/trelay/CRTT/blob/master/CRTT/test/test.py>`_
+
 
 Arguments & CLI options:
 ------------------------
