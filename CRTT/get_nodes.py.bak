@@ -125,7 +125,7 @@ class GET_NODE(object):
 		if len(all_dict_got)>0:
 			for sub_dict in all_dict_got:
 				for key_conf in CONF.REST.subnode_keys:
-					for key_host,value_host in list(sub_dict.items()):
+					for key_host,value_host in sub_dict.items():
 						if key_host == key_conf:
 							if value_host not in sub_node_path_list and \
 								self.url_obj.get_url(value_host) not in self.url_list:
@@ -228,8 +228,8 @@ class Reponse_check(object):
 		conf.read(conf_file)
 		if current_url_name in conf:
 			for dict_got in all_dict_got:
-				for key_got, value_get in list(dict_got.items()):
-					for check_item,check_spec in list(conf[current_url_name].items()):
+				for key_got, value_get in dict_got.items():
+					for check_item,check_spec in conf[current_url_name].items():
 						if key_got==check_item:
 							if "<" in check_spec:
 								self.__threshold_check(current_url_name,check_item, check_spec, dict_got[check_item])
